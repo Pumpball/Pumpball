@@ -5,6 +5,7 @@ Hold $PUMPBALL tokens → they act like lottery tickets → win SOL. Fully on-ch
 
 ---
 How It Works
+
 Every trade on pump.fun generates creator fees in SOL
 Every 5 minutes the bot collects those fees and splits them into two prize pools
 Minor Reward — a weighted random draw runs frequently, sending the entire minor pot to one lucky holder
@@ -13,6 +14,7 @@ More tokens = more tickets. No cap. Winners receive SOL directly to their wallet
 
 ---
 Eligibility
+
 Hold at least 100,000 $PUMPBALL tokens
 Every 100k tokens = 1 lottery ticket
 Your wallet is checked on-chain — no registration needed
@@ -20,6 +22,7 @@ Burn addresses and the creator wallet are excluded
 
 ---
 Architecture
+
 Component	Purpose
 `lottery_bot.py`	Core bot — fee collection, pot management, draws, payouts
 Supabase (PostgreSQL)	Stores pot balances, winner history, draw timers, payout locks
@@ -29,6 +32,7 @@ Jupiter Price API	SOL/USD price for display
 
 ---
 Crash Safety
+
 The bot uses a payout lock system to prevent double payouts:
 Before sending any prize, a pending lock is written to the database
 The transaction signature is saved immediately after broadcast
@@ -38,6 +42,7 @@ If the tx didn't land → pot is preserved for the next draw
 
 ---
 Configuration
+
 All settings are controlled via environment variables (`.env` file):
 Variable	Default	Description
 `COLLECTION_INTERVAL_MINUTES`	`5`	How often to collect fees
@@ -51,6 +56,7 @@ Variable	Default	Description
 
 ---
 Transparency
+
 This repo contains the exact bot code running the $PUMPBALL lottery. You can verify:
 Fee collection logic and 50/50 pot split
 Weighted random winner selection (proportional to holdings)
