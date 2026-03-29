@@ -66,6 +66,7 @@ Every draw, every winner, every payout is logged to the database and verifiable 
 
 ---
 Links
+
 Website: (coming soon)
 Token: Solscan (link added after launch)
 Twitter: (coming soon)
