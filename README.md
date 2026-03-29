@@ -1,6 +1,6 @@
 PUMPBALL
 
-Automated SOL lottery powered by pump.fun creator fees. PUMPBALL
+Automated SOL lottery powered by pump.fun creator fees.
 Hold $PUMPBALL tokens → they act like lottery tickets → win SOL. Fully on-chain, fully verifiable.
 
 ---
