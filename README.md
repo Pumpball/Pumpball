@@ -67,9 +67,9 @@ Every draw, every winner, every payout is logged to the database and verifiable 
 ---
 Links
 
-Website: (coming soon)
-Token: Solscan (link added after launch)
-Twitter: (coming soon)
+Website: https://pumpball.site/
+Token: (CA added after launch)
+Twitter: https://x.com/Pumpball888
 
 ---
 Holders don't sell. Holders win.
