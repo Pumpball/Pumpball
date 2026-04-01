@@ -68,7 +68,7 @@ Every draw, every winner, every payout is logged to the database and verifiable 
 Links
 
 Website: https://pumpball.site/
-Token: (CA added after launch)
+Token: 7wEAvvmVQkT3XVk3VYB5JHNaktdZJh1zKKUnZCrGpump
 Twitter: https://x.com/Pumpball888
 
 ---
